@@ -13,7 +13,7 @@ import FooterComponent from "./components/FooterComponent";
 
 // Словарь гостей с уникальными кодами
 const guestCodes: Record<string, string> = {
-  vika_clara: "Виктория и Клара",
+  vika_clara: "Виктория и Клара Константиновна",
   igor_lara: "Игорь и Лариса",
   valya_svet_artem: "Валентин, Светлана и Артём",
   denis: "Денис",
