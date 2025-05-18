@@ -115,7 +115,7 @@ const AppContent: React.FC = () => {
 
   // Получаем guestCode из URL
   const path = window.location.pathname;
-  const guestCode = path.split("/")[1] || "";
+  const guestCode = path.replace(/^\/|\/$/g, '') || "";
   const guestNames = guestCodes[guestCode] || "Гость";
   const greeting = generateGreeting(guestNames);
 
