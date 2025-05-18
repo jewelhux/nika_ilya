@@ -1,0 +1,54 @@
+.eventContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.imageContainer {
+  width: 100%;
+  max-width: 500px; // Максимальная ширина изображения
+  margin-bottom: 20px;
+}
+
+.branchImage {
+  width: 100%; // Изображение будет занимать 100% ширины контейнера
+  height: auto; // Высота будет автоматически подстраиваться
+  object-fit: contain; // Сохраняет пропорции изображения
+}
+
+.names {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.date {
+  font-size: 2.1rem;
+  margin-bottom: 15px;
+}
+
+.countdown {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .names {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .date,
+  .countdown {
+    font-size: 1rem;
+  }
+}
