@@ -36,6 +36,7 @@ const guestCodes: Record<string, string> = {
   rashid_vika: "Рашид и Вика",
   nikita_anya: "Никита и Аня",
   pasha_olesya: "Паша и Олеся",
+  sergey: "Сергей",
 };
 
 // Функция для генерации приветствия
